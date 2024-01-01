@@ -24,6 +24,7 @@ const Display = ({ contract, account }) => {
       // console.log(str_array);
       const images = str_array.map((item, i) => {
         return (
+          // eslint-disable-next-line react/jsx-no-target-blank
           <a href={item} key={i} target="_blank">
             <img
               key={i}
